@@ -1,0 +1,175 @@
+html {
+  font-size: 16px;
+
+}
+
+header {
+  border-bottom: 2px solid red;
+  height: 4rem;
+}
+
+nav {
+text-align: right;
+margin-right: 1.5rem;
+margin-bottom:
+}
+
+
+
+nav li {
+  display: inline-block;
+  margin-left: 0.5rem;
+  margin-bottom:
+}
+
+h1 {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #2E2926
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#colmar {
+  font-weight: 800;
+}
+
+.logo {
+  top: 1rem;
+  height: 2rem;
+  margin-left: 1.5rem;
+}
+
+.jumbotron {
+  background-color: whitesmoke;
+}
+
+.banner {
+  margin: 0 auto;
+  display: flex;
+}
+
+.banner img {
+  width: 60%;
+  margin: 2rem 1.5rem;
+  border: 1px solid black;
+}
+
+.mediabox {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.mediabox img {
+  width: 100%
+}
+
+.textbox {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  line-height: normal;
+  text-align: center;
+  border: 1px solid red;
+  padding: 4rem 2rem;
+}
+
+
+
+/*/
+.jumbotron{
+display: flex;
+background-color: whitesmoke;
+}
+
+.banner {
+  margin: 0 auto;
+  display: flex;
+}
+
+
+.media1 {
+  width: 60%;
+}
+
+.banner .media1 img {
+  width: 100%;
+  margin: 2rem 1.5rem;
+  display: flex;
+  border: 1px solid black;
+}
+
+.text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  line-height: normal;
+  text-align: center;
+  border: 1px solid red;
+  padding: 4rem 2rem;
+}
+
+.jumbotron {
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  background-color: whitesmoke;
+}
+
+.banner img {
+  margin: 2rem 1.5rem;
+  border: 1px solid blue;
+  width: 60%;
+}
+
+.text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+
+  .text {
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid blue;
+  padding: 1rem;
+  margin: 2rem 1.5rem;
+}
+/*/
+
+ a {
+  display: block;
+  width: 15rem;
+  padding: .5rem 1rem ;
+  border-radius: 5px;
+  margin: 20% auto;
+  color: white;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 1rem;
+  background-color: #2e2926;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #2e2926;
+  transition-duration: 750ms;
+}
+
+
+}

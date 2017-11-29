@@ -1,0 +1,138 @@
+html {
+  font-size: 16px;
+
+}
+
+header {
+  border-bottom: 2px solid red;
+  height: 4rem;
+}
+
+nav {
+text-align: right;
+margin-right: 1.5rem;
+margin-bottom:
+}
+
+
+
+nav li {
+  display: inline-block;
+  margin-left: 0.5rem;
+  margin-bottom:
+}
+
+h1 {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #2E2926
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#colmar {
+  font-weight: 800;
+}
+
+.logo {
+  top: 1rem;
+  height: 2rem;
+  margin-left: 1.5rem;
+}
+
+
+ /* JumboTron*/
+
+ .jumbotron {
+   margin: 0 auto;
+   background-color: whitesmoke;
+ }
+
+ .banner {
+   margin: 2rem 1.5rem;
+   display: flex;
+   border: 1px solid red;
+   background-color: #874E2A;
+ }
+
+ .mediabox {
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+ }
+
+ .mediabox img {
+   width: 100%
+ }
+
+ .textbox {
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+   line-height: normal;
+   text-align: center;
+   border: 1px solid red;
+   padding: 4rem 2rem;
+ }
+
+
+ a {
+  display: block;
+  width: 15rem;
+  padding: .5rem 1rem ;
+  border-radius: 5px;
+  margin: 20% auto;
+  color: white;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 1rem;
+  background-color: #2e2926;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #2e2926;
+  transition-duration: 750ms;
+}
+
+/*Box 2*/
+
+  .banner2 {
+    margin: 1rem;
+    display: flex;
+    border: 1px solid black;
+    background-color: #E59800
+  }
+
+  .container {
+
+  }
+
+  .mediabox2 {
+  width: 35%;
+  height: auto;
+  }
+
+  .mediabox2 img {
+    width: 100%;
+    height: auto;
+  }
+
+ .scrollbox {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid green;
+ }
+
+ .textbox2 {
+   width: 35%;
+   display: flex;
+   flex-direction: column;
+   padding:
+ }
