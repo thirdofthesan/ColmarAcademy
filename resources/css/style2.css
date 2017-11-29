@@ -100,7 +100,7 @@ a:hover {
   transition-duration: 750ms;
 }
 
-/*Box 2*/
+/*Box 2 & 4*/
 
   .banner2 {
     margin: 1rem;
@@ -119,6 +119,11 @@ a:hover {
     height: auto;
   }
 
+  .mediabox video {
+    width: 100%
+  }
+
+
  .scrollbox {
   width: 40%;
   display: flex;
@@ -130,7 +135,13 @@ a:hover {
    width: 35%;
    display: flex;
    flex-direction: column;
-   padding:
+   padding: 1rem;
+   border: 0.5px solid red;
+   margin: 0.5rem;
+ }
+
+ .textbox2 p {
+   padding: .5rem 0 .5rem 0;
  }
 
  /*Box 3*/
@@ -167,8 +178,4 @@ a:hover {
    height: auto;
  }
 
- /*Box 4*/
-
- .mediabox video {
-   width: 100%
- }
+ /*Footer*/
