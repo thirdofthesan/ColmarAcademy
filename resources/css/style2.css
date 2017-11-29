@@ -109,10 +109,6 @@ a:hover {
     background-color: #E59800
   }
 
-  .container {
-
-  }
-
   .mediabox2 {
   width: 35%;
   height: auto;
@@ -135,4 +131,44 @@ a:hover {
    display: flex;
    flex-direction: column;
    padding:
+ }
+
+ /*Box 3*/
+
+ .curriculum {
+   display: block;
+   background-position: center;
+ }
+
+ .curriculum h1 {
+   text-align: center;
+ }
+
+
+ .courses {
+   display: flex;
+   justify-content: space-around;
+   margin: 2rem 4rem;
+   flex-wrap: wrap;
+   border: 1px solid green;
+ }
+
+ .course {
+   display: flex;
+   flex-direction: column;
+   margin: 2rem;
+   width: 25%;
+   border: 1px solid blue;
+ }
+
+ .course img {
+   width: 100%;
+   margin: 0 0 1rem 0;
+   height: auto;
+ }
+
+ /*Box 4*/
+
+ .mediabox video {
+   width: 100%
  }
