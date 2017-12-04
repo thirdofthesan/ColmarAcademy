@@ -1,11 +1,23 @@
+
 html {
   font-size: 16px;
-
+  font-family: 'Merriweather', serif;
 }
 
 header {
-  border-bottom: 2px solid red;
+  display: flex;
+  align-items: center;
   height: 4rem;
+  margin: 0 1.5rem 0 1.5rem;
+  border: 1px solid red;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  border: 1px solid green;
+  flex-grow: 2;
 }
 
 nav {
@@ -14,16 +26,18 @@ margin-right: 1.5rem;
 margin-bottom:
 }
 
-
+.mobile {
+  display: none;
+}
 
 nav li {
   display: inline-block;
   margin-left: 0.5rem;
+  border: 1px solid blue;
   margin-bottom:
 }
 
 h1 {
-  font-family: Verdana;
   font-weight: bold;
   font-size: 2rem;
   color: #2E2926
@@ -32,18 +46,24 @@ h1 {
 h2 {
   font-size: 1rem;
   font-weight: bold;
+  margin:0.5rem;
+}
+
+h3 {
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+  font-family: 'Inconsolata';
+  font-weight: normal;
+  margin: 0.5rem;
 }
 
 #colmar {
   font-weight: 800;
 }
-
-.logo {
-  top: 1rem;
-  height: 2rem;
-  margin-left: 1.5rem;
-}
-
 
  /* JumboTron*/
 
@@ -56,7 +76,6 @@ h2 {
    margin: 2rem 1.5rem;
    display: flex;
    border: 1px solid red;
-   background-color: #874E2A;
  }
 
  .mediabox {
@@ -65,9 +84,29 @@ h2 {
    width: 60%;
  }
 
+
  .mediabox img {
+   margin-bottom: 2rem;
    width: 100%
  }
+
+ .mediabox video {
+   margin-bottom: 1.5rem;
+ }
+
+ .mediabox h1 {
+ margin-bottom: 1.5rem;
+ }
+
+ .mediabox h2 {
+   margin-bottom: 0.5rem;
+ }
+
+ .mediabox p {
+   margin-bottom: 1.5rem;
+ }
+
+
 
  .textbox {
    width: 40%;
@@ -89,7 +128,6 @@ h2 {
   margin: 20% auto;
   color: white;
   text-align: center;
-  font-family: Helvetica;
   font-size: 1rem;
   background-color: #2e2926;
   text-decoration: none;
@@ -102,16 +140,20 @@ a:hover {
 
 /*Box 2 & 4*/
 
+
   .banner2 {
     margin: 1rem;
     display: flex;
     border: 1px solid black;
-    background-color: #E59800
   }
 
   .mediabox2 {
   width: 35%;
   height: auto;
+  }
+
+  .mediabox2 h1 {
+    margin-bottom: 1.5rem;
   }
 
   .mediabox2 img {
@@ -140,9 +182,11 @@ a:hover {
    margin: 0.5rem;
  }
 
+/*
  .textbox2 p {
    padding: .5rem 0 .5rem 0;
  }
+*/
 
  /*Box 3*/
 
@@ -161,7 +205,9 @@ a:hover {
    justify-content: space-around;
    margin: 2rem 4rem;
    flex-wrap: wrap;
+   background-color: #BDC7C7;
    border: 1px solid green;
+
  }
 
  .course {
@@ -170,6 +216,7 @@ a:hover {
    margin: 2rem;
    width: 25%;
    border: 1px solid blue;
+   background-color: white;
  }
 
  .course img {
@@ -179,3 +226,37 @@ a:hover {
  }
 
  /*Footer*/
+footer {
+ display: flex;
+ height: 5rem;
+ background-color: MediumAquamarine;
+ margin: auto;
+ padding-top: 1rem;
+}
+
+footer p {
+  display: inline-flex;
+  flex-grow: 2;
+}
+
+footer li {
+  display: inline-block;
+  text-align: right;
+  padding-right: 25px;
+  font-size: 16px;
+}
+
+/*mobile setttings*/
+ @@media only screen and (max-width: 480px) {
+
+nav  ul {
+  display: none;
+}
+
+nav .mobile {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+}
