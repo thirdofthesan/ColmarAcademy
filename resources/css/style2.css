@@ -245,18 +245,3 @@ footer li {
   padding-right: 25px;
   font-size: 16px;
 }
-
-/*mobile setttings*/
- @@media only screen and (max-width: 480px) {
-
-nav  ul {
-  display: none;
-}
-
-nav .mobile {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-
-}
