@@ -1,20 +1,31 @@
+
 html {
   font-size: 16px;
-
+  font-family: 'Merriweather', serif;
 }
 
 header {
-  border-bottom: 2px solid red;
+  display: flex;
+  align-items: center;
   height: 4rem;
+  margin: 0 1.5rem 0 1.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  flex-grow: 2;
 }
 
 nav {
 text-align: right;
 margin-right: 1.5rem;
-margin-bottom:
 }
 
-
+.mobile {
+  display: none;
+}
 
 nav li {
   display: inline-block;
@@ -23,7 +34,6 @@ nav li {
 }
 
 h1 {
-  font-family: Verdana;
   font-weight: bold;
   font-size: 2rem;
   color: #2E2926
@@ -32,125 +42,77 @@ h1 {
 h2 {
   font-size: 1rem;
   font-weight: bold;
+  margin:0.5rem;
+}
+
+h3 {
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+  font-family: 'Inconsolata';
+  font-weight: normal;
+  margin: 0.5rem;
 }
 
 #colmar {
   font-weight: 800;
 }
 
-.logo {
-  top: 1rem;
-  height: 2rem;
-  margin-left: 1.5rem;
-}
+ /* JumboTron*/
 
-.jumbotron {
-  background-color: whitesmoke;
-}
+ .jumbotron {
+   margin: 0 auto;
+   background-color: whitesmoke;
+ }
 
-.banner {
-  margin: 0 auto;
-  display: flex;
-}
+ .banner {
+   margin: 2rem 1.5rem;
+   display: flex;
+ }
 
-.banner img {
-  width: 60%;
-  margin: 2rem 1.5rem;
-  border: 1px solid black;
-}
+ .mediabox {
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+ }
 
-.mediabox {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-}
 
-.mediabox img {
-  width: 100%
-}
+ .mediabox img {
+   margin-bottom: 2rem;
+   width: 100%
+ }
 
-.textbox {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  line-height: normal;
-  text-align: center;
-  border: 1px solid red;
-  padding: 4rem 2rem;
-}
+ .mediabox video {
+   margin-bottom: 1.5rem;
+ }
+
+ .mediabox h1 {
+ margin-bottom: 1.5rem;
+ }
+
+ .mediabox h2 {
+   margin-bottom: 0.5rem;
+ }
+
+ .mediabox p {
+   margin-bottom: 1.5rem;
+ }
 
 
 
-/*/
-.jumbotron{
-display: flex;
-background-color: whitesmoke;
-}
+ .textbox {
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+   line-height: normal;
+   text-align: center;
+   padding: 4rem 2rem;
+ }
 
-.banner {
-  margin: 0 auto;
-  display: flex;
-}
-
-
-.media1 {
-  width: 60%;
-}
-
-.banner .media1 img {
-  width: 100%;
-  margin: 2rem 1.5rem;
-  display: flex;
-  border: 1px solid black;
-}
-
-.text {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  line-height: normal;
-  text-align: center;
-  border: 1px solid red;
-  padding: 4rem 2rem;
-}
-
-.jumbotron {
-  margin: 0 auto;
-  background-color: whitesmoke;
-}
-
-.banner {
-  display: flex;
-  justify-content: space-around;
-  background-color: whitesmoke;
-}
-
-.banner img {
-  margin: 2rem 1.5rem;
-  border: 1px solid blue;
-  width: 60%;
-}
-
-.text {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid red;
-}
-
-
-  .text {
-  border: 1px solid yellow;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  border: 1px solid blue;
-  padding: 1rem;
-  margin: 2rem 1.5rem;
-}
-/*/
 
  a {
   display: block;
@@ -160,16 +122,113 @@ background-color: whitesmoke;
   margin: 20% auto;
   color: white;
   text-align: center;
-  font-family: Helvetica;
   font-size: 1rem;
   background-color: #2e2926;
   text-decoration: none;
 }
 
 a:hover {
-  background-color: #2e2926;
+  background-color: #0971b2;
   transition-duration: 750ms;
 }
 
+/*Box 2 & 4*/
 
+
+  .banner2 {
+    margin: 1rem;
+    display: flex;
+  }
+
+  .banner2:hover {
+    background-color: WhiteSmoke;
+    transition-duration: 500ms;
+  }
+
+  .mediabox2 {
+  width: 35%;
+  height: auto;
+  }
+
+  .mediabox2 h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  .mediabox2 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .mediabox video {
+    width: 100%
+  }
+
+
+ .scrollbox {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .textbox2 {
+   width: 35%;
+   display: flex;
+   flex-direction: column;
+   padding: 1rem;
+   margin: 0.5rem;
+ }
+
+ /*Box 3*/
+
+ .curriculum {
+   display: block;
+   background-position: center;
+ }
+
+ .curriculum h1 {
+   text-align: center;
+ }
+
+
+ .courses {
+   display: flex;
+   justify-content: space-around;
+   margin: 2rem 4rem;
+   flex-wrap: wrap;
+   background-color: #BDC7C7;
+ }
+
+ .course {
+   display: flex;
+   flex-direction: column;
+   margin: 2rem;
+   width: 25%;
+   background-color: white;
+ }
+
+ .course img {
+   width: 100%;
+   margin: 0 0 1rem 0;
+   height: auto;
+ }
+
+ /*Footer*/
+footer {
+  background-color: whitesmoke;
+ display: flex;
+ height: 5rem;
+ margin: auto;
+ padding-top: 1rem;
+}
+
+footer p {
+  display: inline-flex;
+  flex-grow: 2;
+}
+
+footer li {
+  display: inline-block;
+  text-align: right;
+  padding-right: 25px;
+  font-size: 16px;
 }
