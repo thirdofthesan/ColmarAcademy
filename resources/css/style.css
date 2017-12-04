@@ -9,6 +9,7 @@ header {
   align-items: center;
   height: 4rem;
   margin: 0 1.5rem 0 1.5rem;
+  border-bottom: 1.5px solid #DEDEDE;
 }
 
 .logo {
@@ -65,7 +66,7 @@ p {
 
  .jumbotron {
    margin: 0 auto;
-   background-color: whitesmoke;
+   background-color: #DEDEDE;
  }
 
  .banner {
@@ -76,6 +77,7 @@ p {
  .mediabox {
    display: flex;
    flex-direction: column;
+   background-color: #F5F5F5;
    width: 60%;
  }
 
@@ -138,6 +140,7 @@ a:hover {
   .banner2 {
     margin: 1rem;
     display: flex;
+    border-bottom: 1.5px solid #DEDEDE;
   }
 
   .banner2:hover {
@@ -195,7 +198,7 @@ a:hover {
    justify-content: space-around;
    margin: 2rem 4rem;
    flex-wrap: wrap;
-   background-color: #BDC7C7;
+   background-color: #DEDEDE;
  }
 
  .course {
@@ -203,7 +206,12 @@ a:hover {
    flex-direction: column;
    margin: 2rem;
    width: 25%;
-   background-color: white;
+   background-color: #FFFFFF;
+ }
+
+ .course:hover {
+   background-color: #F5F5F5;
+   transition-duration: 250ms;
  }
 
  .course img {

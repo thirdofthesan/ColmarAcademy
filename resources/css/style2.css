@@ -10,6 +10,7 @@ header {
   height: 4rem;
   margin: 0 1.5rem 0 1.5rem;
   border: 1px solid red;
+  border-bottom: 1.5px solid #DEDEDE;
 }
 
 .logo {
@@ -34,7 +35,14 @@ nav li {
   display: inline-block;
   margin-left: 0.5rem;
   border: 1px solid blue;
-  margin-bottom:
+  text-decoration-color: blue;
+
+}
+
+nav li:active {
+  color: #F5F5F5;
+  transition-duration: 500ms;
+
 }
 
 h1 {
@@ -69,7 +77,7 @@ p {
 
  .jumbotron {
    margin: 0 auto;
-   background-color: whitesmoke;
+   background-color: #dedede;
  }
 
  .banner {
@@ -81,6 +89,7 @@ p {
  .mediabox {
    display: flex;
    flex-direction: column;
+   background-color: whitesmoke;
    width: 60%;
  }
 
@@ -114,7 +123,7 @@ p {
    flex-direction: column;
    align-self: center;
    line-height: normal;
-   text-align: center;
+   text-align: left;
    border: 1px solid red;
    padding: 4rem 2rem;
  }
@@ -134,7 +143,7 @@ p {
 }
 
 a:hover {
-  background-color: #2e2926;
+  background-color: #0971b2;
   transition-duration: 750ms;
 }
 
@@ -145,6 +154,11 @@ a:hover {
     margin: 1rem;
     display: flex;
     border: 1px solid black;
+  }
+
+  .banner2:hover {
+    background-color: WhiteSmoke;
+    transition-duration: 500ms;
   }
 
   .mediabox2 {
@@ -205,7 +219,7 @@ a:hover {
    justify-content: space-around;
    margin: 2rem 4rem;
    flex-wrap: wrap;
-   background-color: #BDC7C7;
+   background-color: #DEDEDE;
    border: 1px solid green;
 
  }
@@ -216,7 +230,12 @@ a:hover {
    margin: 2rem;
    width: 25%;
    border: 1px solid blue;
+   background-color: #FFFFFF;
+ }
+
+ .course:hover {
    background-color: white;
+   transition-duration: 250ms;
  }
 
  .course img {
@@ -229,7 +248,7 @@ a:hover {
 footer {
  display: flex;
  height: 5rem;
- background-color: MediumAquamarine;
+ background-color: WhiteSmoke;
  margin: auto;
  padding-top: 1rem;
 }
@@ -244,4 +263,20 @@ footer li {
   text-align: right;
   padding-right: 25px;
   font-size: 16px;
+}
+
+
+/*mobile setttings*/
+ @@media only screen and (max-width: 480px) {
+
+nav, li, ul {
+  display: none;
+}
+
+.mobile {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
 }
